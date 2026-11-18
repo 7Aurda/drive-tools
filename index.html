@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Drive Tools</title>
+<style>
+  :root { color-scheme: light dark; --fg: #16181d; --muted: #5c6370; --bg: #ffffff; --line: #e3e6ea; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --fg: #e8eaed; --muted: #9aa0a6; --bg: #16181d; --line: #2c2f36; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 "Segoe UI", system-ui, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 4rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Personal Drive Tools</h1>
+  <p class="sub">Набор личных утилит одного человека для работы с собственным Google Drive.</p>
+
+  <h2>Что это</h2>
+  <p>
+    Скрипты, которые запускаются на домашнем компьютере владельца и кладут его собственные
+    файлы на его собственный Google Drive: резюме в формате .docx, рабочие документы,
+    выгрузки заметок. Приложение не имеет сервера, сайта с входом и пользователей, кроме
+    самого владельца.
+  </p>
+
+  <h2>Какие разрешения запрашиваются</h2>
+  <ul>
+    <li><code>drive.file</code> — создание и изменение только тех файлов, которые создало само приложение.
+        Остальные файлы на Диске ему не видны.</li>
+  </ul>
+
+  <h2>Где код</h2>
+  <p>
+    Утилиты живут в личном репозитории владельца и публично не распространяются.
+    Эта страница существует для экрана согласия Google.
+  </p>
+
+  <footer>
+    <a href="privacy.html">Политика конфиденциальности</a>
+  </footer>
+</main>
+</body>
+</html>

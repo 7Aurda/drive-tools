@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Personal Drive Tools</title>
+<style>
+  :root { color-scheme: light dark; --fg: #16181d; --muted: #5c6370; --bg: #ffffff; --line: #e3e6ea; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --fg: #e8eaed; --muted: #9aa0a6; --bg: #16181d; --line: #2c2f36; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 "Segoe UI", system-ui, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 4rem; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности</h1>
+  <p class="sub">Personal Drive Tools · обновлено 18 ноября 2026</p>
+
+  <h2>Кто пользуется приложением</h2>
+  <p>
+    Приложение рассчитано на одного пользователя — его владельца. Регистрации нет,
+    сторонние пользователи не предусмотрены.
+  </p>
+
+  <h2>Какие данные обрабатываются</h2>
+  <ul>
+    <li>Файлы, которые владелец сам выбирает для загрузки на свой Google Drive.</li>
+    <li>Токен доступа Google, выданный владельцем самому себе.</li>
+  </ul>
+
+  <h2>Где они хранятся</h2>
+  <p>
+    Файлы остаются на Google Drive владельца. Токен лежит на его домашнем компьютере
+    в каталоге, закрытом от публикации. Серверов, баз данных и облачных хранилищ у
+    приложения нет, поэтому данные никуда не копируются и не передаются третьим лицам.
+  </p>
+
+  <h2>Объём доступа</h2>
+  <p>
+    Запрашивается единственное разрешение <code>drive.file</code>: приложение видит и
+    изменяет только те файлы, которые создало само. Остальное содержимое Диска ему
+    недоступно.
+  </p>
+
+  <h2>Как отозвать доступ</h2>
+  <p>
+    В любой момент на странице
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    После отзыва приложение теряет доступ немедленно.
+  </p>
+
+  <h2>Связь</h2>
+  <p>artem.urdin [at] gmail.com</p>
+
+  <footer>
+    <a href="index.html">На главную</a>
+  </footer>
+</main>
+</body>
+</html>
